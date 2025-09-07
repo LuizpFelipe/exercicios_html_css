@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 40px;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo-principal{
+    font-size: 60px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.subtitulo{
+    font-size: 20px;
+    color: #666;
+    margin-top: 50px;
+}
+
+.membros-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background: #ffffff;        
+    border: 3px solid #007bff; 
+    border-radius: 12px;
+    padding: 50px;
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+.membros-cards{
+    color: #fff;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.membros-cards:hover{
+    transform: translate(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,1); 
+    background-color: #b8b8b8;
+    
+}
+
+.membros-cards img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 8px;
+}
+
+.membros-cards h3{
+    font-size: 22px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.membros-cards .cargo{
+    font-weight: bold;
+    color: #5e5e5e;
+    margin-bottom: 10px;
+}
+
+.membros-cards .bio{
+    font-size: 14px;
+    color: #000000;
+    text-align: justify; 
+    line-height: 1.6;
+    margin: 0 auto;
+}

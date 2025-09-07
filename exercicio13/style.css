@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecalho-site h1 {
+    margin-bottom: 5px;
+    color: black;
+    text-shadow: 0 2px 2px rgb(0, 0, 0);;
+}
+
+.subtitulo {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.grade-ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.cartao-oferta {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.cartao-oferta img {
+    width: 100%;
+    height: 190px;
+    margin-bottom: 10px;
+}
+
+.cartao-oferta h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cartao-oferta p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.cartao-oferta:hover {
+    transform: scale(1.1);
+    background-color: #ff8b8b;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6f00;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3d00;
+}
+
+.super-oferta {
+    background-color: #ffeb3b;
+    border: 2px solid #ff9800;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+     
+}
+
+.super-oferta:hover{
+    animation: piscar 1s infinite;
+}
+
+@keyframes piscar {
+        0%, 100% { 
+            transform: scale(1.0);
+            box-shadow: 0 8px 10px rgba(255, 0, 0, 0.315);
+            }
+        50% { 
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgb(255, 0, 0);
+        }
+      
+    }
+
+.super-oferta img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.super-oferta h2 {
+    font-size: 26px;
+    color: #e65100;
+    margin-bottom: 10px;
+}
+
+.super-oferta p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.badge-super {
+    background-color: #ff3d00;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.btn-super {
+    background-color: #e65100;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-super:hover {
+    background-color: #bf360c;
+}
