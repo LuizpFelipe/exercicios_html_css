@@ -36,6 +36,7 @@ header {
     border: 2px solid #007bff;
     border-radius: 10px;
     box-shadow: 10px 10px 0px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .links-container {
