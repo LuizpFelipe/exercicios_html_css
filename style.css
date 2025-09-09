@@ -46,7 +46,7 @@ header {
     justify-items: center; 
 }
 
-.exercise-link {
+.exercicio-link {
     text-decoration: none;
     color: #fff;
     background-color: #007bff;
@@ -57,7 +57,7 @@ header {
     transition: all 0.3s ease;
 }
 
-.exercise-link:hover {
+.exercicio-link:hover {
     background-color: #000000;
     transform: translateY(-3px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);

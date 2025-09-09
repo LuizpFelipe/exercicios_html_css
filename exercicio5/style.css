@@ -5,6 +5,7 @@
 }
 
 body{
+    font-family: Arial, sans-serif;;
     text-align: center;
     background-color: #0f1724;
     color: #e6eef8;
@@ -27,7 +28,7 @@ body{
     font-size: 32px;          
     color: #ff6f00;           
     margin: 0;                
-    text-shadow: 0 3px 8px rgba(255,111,0,0.3); /
+    text-shadow: 0 3px 8px rgba(255,111,0,0.3); 
 }
 
 .titulo-formulario p {
@@ -43,11 +44,10 @@ body{
     background-color: #1f1f2e;          
     border-radius: 12px;                 
     padding: 25px;                       
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 8px 20px rgb(0, 0, 0); 
     display: block;
     flex-direction: column; 
     width: 100%;   
-    max-width: 500px;
     margin: 0 auto;         
 }
 
@@ -96,5 +96,5 @@ body{
 
 .container-formulario button:hover {
     background-color: #e65100;        
-    transform: translateY(-2px); 
+    transform: translateY(2px); 
 }
