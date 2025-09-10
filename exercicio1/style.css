@@ -10,6 +10,7 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
+    text-align: right;
 }
 
 .fundo {
@@ -54,4 +55,25 @@ body {
     font-size: 1.2rem;
     line-height: 1.8;
     color: #f1f1f1;
+}
+
+.topo-direita {
+    position: absolute; /* posição relativa à página ou ao container pai */
+    top: 20px;          /* distância do topo */
+    right: 20px;        /* distância da direita */
+}
+
+.topo-direita button {
+    background-color: #ff6f00;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.topo-direita button:hover {
+    background-color: #e65100;
+    transform: translateY(-2px);
 }

@@ -61,3 +61,24 @@ h1 {
   text-indent: 5px;
   font-size: 15px;
 }
+
+.topo-direita {
+    position: absolute;
+    top: 20px;
+    right: 20px;     
+}
+
+.topo-direita button {
+    background-color: #ff6f00;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.topo-direita button:hover {
+    background-color: #e65100;
+    transform: translateY(-2px);
+}

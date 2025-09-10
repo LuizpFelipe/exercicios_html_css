@@ -84,3 +84,41 @@ body {
     transform: scale(1.2);
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+a button {
+    background-color: #ff6f00;
+    color: #fff; 
+    border: none; 
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 20px 20px 0px 0px;
+}
+
+a button:hover {
+    background-color: #e65100;
+    transform: translateY(-2px);
+}
+
+.topo-direita {
+    position: absolute;
+    top: 20px;
+    right: 20px;     
+}
+
+.topo-direita button {
+    background-color: #ff6f00;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.topo-direita button:hover {
+    background-color: #e65100;
+    transform: translateY(-2px);
+}

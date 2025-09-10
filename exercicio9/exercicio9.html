@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<title>Lista de Tarefas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Lista de Tarefas</title>
 </head>
+
 <body>
 
-<div class="aplicativo">
-  <h1>Lista de Tarefas</h1>
+  <div class="aplicativo">
+    <div class="topo-direita">
+      <a href="../index.html"><button>Index</button></a>
+    </div>
+    <h1>Lista de Tarefas</h1>
 
-  <div class="linha-adicionar">
-    <input class="entrada-tarefa" type="text" placeholder="Nova tarefa">
-    <button class="botao">Adicionar</button>
+    <div class="linha-adicionar">
+      <input class="entrada-tarefa" type="text" placeholder="Nova tarefa">
+      <button class="botao">Adicionar</button>
+    </div>
+
+    <div class="lista-tarefas">
+      <div class="tarefa">
+        <input type="checkbox">
+        <div class="conteudo-tarefa">
+          <div class="titulo-tarefa">Comprar café</div>
+        </div>
+        <div class="acoes-tarefa">
+          <button>Editar</button>
+          <button class="perigo">Excluir</button>
+        </div>
+      </div>
+
+      <div class="tarefa">
+        <input type="checkbox">
+        <div class="conteudo-tarefa">
+          <div class="titulo-tarefa">Estudar CSS</div>
+        </div>
+        <div class="acoes-tarefa">
+          <button>Editar</button>
+          <button class="perigo">Excluir</button>
+        </div>
+      </div>
+
+      <div class="tarefa">
+        <input type="checkbox">
+        <div class="conteudo-tarefa">
+          <div class="titulo-tarefa">Terminar projeto</div>
+        </div>
+        <div class="acoes-tarefa">
+          <button>Editar</button>
+          <button class="perigo">Excluir</button>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="lista-tarefas">
-    <div class="tarefa">
-      <input type="checkbox">
-      <div class="conteudo-tarefa">
-        <div class="titulo-tarefa">Comprar café</div>
-      </div>
-      <div class="acoes-tarefa">
-        <button>Editar</button>
-        <button class="perigo">Excluir</button>
-      </div>
-    </div>
-
-    <div class="tarefa">
-      <input type="checkbox">
-      <div class="conteudo-tarefa">
-        <div class="titulo-tarefa">Estudar CSS</div>
-      </div>
-      <div class="acoes-tarefa">
-        <button>Editar</button>
-        <button class="perigo">Excluir</button>
-      </div>
-    </div>
-
-    <div class="tarefa">
-      <input type="checkbox">
-      <div class="conteudo-tarefa">
-        <div class="titulo-tarefa">Terminar projeto</div>
-      </div>
-      <div class="acoes-tarefa">
-        <button>Editar</button>
-        <button class="perigo">Excluir</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 </body>
+
 </html>

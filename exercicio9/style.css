@@ -67,7 +67,6 @@ h1 {
     border-radius: 8px;
 }
 
-/* Checkbox */
 .tarefa input[type="checkbox"] {
     width: 18px;
     height: 18px;
@@ -104,4 +103,33 @@ h1 {
 
 .acoes-tarefa button.perigo {
     background: #e94560;
+}
+
+button:hover{
+    background-color: #fa5d01;
+}
+
+.acoes-tarefa button.perigo:hover {
+    background: #ff5e00;
+}
+
+.topo-direita {
+    position: absolute;
+    top: 20px;
+    right: 20px;     
+}
+
+.topo-direita button {
+    background-color: #ff6f00;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.topo-direita button:hover {
+    background-color: #e65100;
+    transform: translateY(-2px);
 }

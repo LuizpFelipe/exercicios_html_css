@@ -74,6 +74,7 @@
         border-radius: 12px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         margin: 20px 0;
+        transition: background-color 0.5s, transform 0.5s;
     }
 
     .produto img:hover{
@@ -126,3 +127,24 @@
         margin: 10px 0;
         text-shadow: 0 0 10px #ff3d00, 0 0 20px #ff3d00;;
     }
+
+    .topo-direita {
+    position: absolute;
+    top: 20px;
+    right: 20px;     
+}
+
+.topo-direita button {
+    background-color: #ff6f00;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.topo-direita button:hover {
+    background-color: #e65100;
+    transform: translateY(-2px);
+}
