@@ -24,6 +24,7 @@ h1 {
 .lista-postagens li {
     margin-bottom: 25px;
     padding: 15px;
+    border: 2px solid black;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
