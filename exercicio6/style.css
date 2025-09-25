@@ -29,7 +29,7 @@ details {
   margin-bottom: 12px;
   padding: 12px 18px;
   border: 1px solid #ddd;
-  transition: all 0.3s ease-in-out; /* Transição suave */
+  transition: all 0.3s ease-in-out;
 }
 
 summary {
@@ -57,7 +57,7 @@ details p {
 
 details[open] p {
   opacity: 1;
-  max-height: 200px; /* espaço suficiente para expandir */
+  max-height: 200px;
 }
 
 .topo-direita {

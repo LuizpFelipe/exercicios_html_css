@@ -58,9 +58,9 @@ body {
 }
 
 .topo-direita {
-    position: absolute; /* posição relativa à página ou ao container pai */
-    top: 20px;          /* distância do topo */
-    right: 20px;        /* distância da direita */
+    position: absolute; 
+    top: 20px;          
+    right: 20px;        
 }
 
 .topo-direita button {
